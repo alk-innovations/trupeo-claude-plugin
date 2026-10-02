@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trupeo": {
+      "type": "http",
+      "url": "https://app.trupeo.com/mcp"
+    }
+  }
+}
