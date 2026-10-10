@@ -34,7 +34,7 @@ A Trupeo account (free 30-day trial, no credit card) with at least one shared ma
 
 ## Data
 
-The plugin contains only instructions (Markdown) and the address of the Trupeo connector, `https://app.trupeo.com/mcp`. It runs no code on your computer and stores nothing. When Claude uses the connector, Trupeo sends it only what it asks for on your behalf, within your own rights: the conversations, members, labels and settings of the mailboxes you belong to. Signing in uses OAuth on Trupeo's own page, and you can remove Claude's access at any time from My account, Security, Connected assistants in Trupeo.
+The plugin contains only instructions (Markdown) and the address of the Trupeo connector, `https://app.trupeo.com/mcp`. It runs no code on your computer and stores nothing. When Claude uses the connector, Trupeo sends it only what it asks for on your behalf, within your own rights: the conversations, members, labels and settings of the mailboxes you belong to. Signing in uses OAuth on Trupeo's own page, and you can remove Claude's access at any time from Settings, Your account, Assistants in Trupeo.
 
 - Privacy policy: https://www.trupeo.com/privacy/
 - Help: https://www.trupeo.com/help/connect-an-assistant/
