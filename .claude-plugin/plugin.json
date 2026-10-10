@@ -1,11 +1,10 @@
 {
   "name": "trupeo",
   "displayName": "Trupeo",
-  "version": "1.0.0",
-  "description": "Answer and organise the shared email of your association, school or small business from Claude: triage, replies in the team's name, membership fees, board handovers, parents' and customers' requests, through the Trupeo connector and your own Trupeo rights.",
+  "version": "1.1.0",
+  "description": "Answer and organise the shared email of your association, school, small business, works council (CSE), strata committee or HOA board from Claude: triage, replies in the team's name, membership fees, board handovers, parents', customers', employees' and owners' requests, through the Trupeo connector and your own Trupeo rights.",
   "author": {
     "name": "ALK Innovations",
-    "email": "help@trupeo.com",
     "url": "https://www.trupeo.com"
   },
   "homepage": "https://www.trupeo.com/help/connect-an-assistant/",
@@ -16,5 +15,5 @@
   "supportUrl": "https://www.trupeo.com/help/",
   "privacyPolicyUrl": "https://www.trupeo.com/privacy/",
   "termsOfServiceUrl": "https://www.trupeo.com/terms/",
-  "keywords": ["email", "shared inbox", "associations", "schools", "small business", "gmail", "outlook", "imap"]
+  "keywords": ["email", "shared inbox", "associations", "schools", "small business", "works council", "CSE", "strata", "HOA", "gmail", "outlook", "imap"]
 }
