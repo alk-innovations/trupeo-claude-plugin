@@ -1,18 +1,20 @@
 # Trupeo for Claude
 
-[Trupeo](https://www.trupeo.com) is a shared inbox for small teams, associations and schools: several people answer the same email address (contact@, info@, secretariat@) without stepping on each other. This plugin lets Claude work in those shared mailboxes with your own Trupeo account and your own rights, nothing more.
+[Trupeo](https://www.trupeo.com) is a shared inbox for small teams, associations, schools, works councils and building committees: several people answer the same email address (contact@, info@, secretariat@) without stepping on each other. This plugin lets Claude work in those shared mailboxes with your own Trupeo account and your own rights, nothing more.
 
 ## What it adds
 
 - **The Trupeo connector**: read and search conversations and their attachments, reply, forward, assign, close, add internal notes, file into folders, labels and scopes, trash, spam and read state, the shared address book, signatures and, for mailbox owners, members, invitations and scopes.
-- **Seven skills** written from how associations, schools and small businesses actually work their shared address:
+- **Nine skills** written from how associations, schools, small businesses, works councils and building committees actually work their shared address:
   - `triage-shared-inbox`: what is waiting, sorted into today, within a working day and no answer needed, and who should take what;
   - `reply-for-the-team`: replies that read the whole thread and the team's notes, never invent a fact, stay brief and courteous, keep sensitive matters for a meeting, and wait for your go before sending;
   - `membership-fees`: an association's fee questions and reminders, "I have already paid", families who cannot pay, and no tax-receipt promise the association cannot keep;
   - `board-handover`: when a board or a volunteer changes, and the weekly review of what waits and who has access;
   - `school-office-routine`: parents' emails, from the morning's absences to the end-of-day check, routed to the office, the head or the teacher;
   - `customer-requests`: quotes, orders, delays and complaints for a small business, with a next step in every answer;
-  - `organise-mailbox`: folders, labels or categories depending on the provider, clean-up, and scopes so each person sees only what concerns them.
+  - `organise-mailbox`: folders, labels or categories depending on the provider, clean-up, and scopes so each person sees only what concerns them;
+  - `works-council`: a French CSE's mailbox, from employees' questions on activities, chèques-vacances and reimbursements to suppliers, convocations from management and the handover after an election, with employees' personal data kept out of notes;
+  - `strata-committee`: a self-managed strata committee, HOA board or conseil syndical, from owners' questions and repairs to contractors' quotes, the managing agent, and decisions taken by email noted for the minutes.
 
 ## Use it
 

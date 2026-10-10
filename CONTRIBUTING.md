@@ -4,7 +4,7 @@ Thank you for helping make Trupeo work better from Claude.
 
 ## What this repository holds
 
-Only the plugin: seven skills in Markdown under `skills/`, the manifest in `.claude-plugin/plugin.json` and the connector address in `.mcp.json`. The Trupeo connector itself (the MCP server and its tools) is not in this repository, so a change to what a tool does belongs in an issue rather than a pull request.
+Only the plugin: nine skills in Markdown under `skills/`, the manifest in `.claude-plugin/plugin.json` and the connector address in `.mcp.json`. The Trupeo connector itself (the MCP server and its tools) is not in this repository, so a change to what a tool does belongs in an issue rather than a pull request.
 
 ## Welcome changes
 
