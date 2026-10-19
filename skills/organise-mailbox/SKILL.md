@@ -1,6 +1,6 @@
 ---
 name: organise-mailbox
-description: Organise a Trupeo shared mailbox. Use when the user wants to file, sort, label, tag, move or clean up conversations, create or rename folders and labels, or set up scopes so each volunteer or colleague only sees the mail that concerns them.
+description: Organise a Trupeo shared mailbox. Use when the user wants to file, sort, label, tag, move or clean up conversations, create or rename folders and labels, or set up scopes so each volunteer or member only sees the mail that concerns them, or sort the address book into contact groups.
 ---
 
 How a mailbox is organised depends on its provider. Check before proposing anything.
@@ -22,5 +22,6 @@ How a mailbox is organised depends on its provider. Check before proposing anyth
    - spam: `set_spam` with `spam: true`, or `false` for a real mail caught by the filter (`search_conversations` with `view: "spam"` lists them);
    - read or unread: `set_read`, for the person and at the provider;
    - two unrelated requests in one conversation: `split_message` moves the later mail into its own conversation.
-6. Deleting a folder, a label or a scope, trashing, marking as spam, removing a member or changing a role cannot be undone from Claude, or only partly. Name exactly what will go and ask for a clear yes first.
-7. Report what changed as a short list. Answer in the user's language.
+6. The address book: contact groups are the people the team writes to together ("Bureau", "Parents CE2", "Fournisseurs"), not labels, which are for conversations. `list_contact_groups`, `create_contact_group`, `rename_contact_group`, then `add_to_contact_group` and `remove_from_contact_group` with ids from `search_contacts`. When the mailbox keeps its contacts up to date with Google Contacts or Outlook, a change to a group shows there too.
+7. Deleting a folder, a label, a scope or a contact group, trashing, marking as spam, removing a member or changing a role cannot be undone from Claude, or only partly. Name exactly what will go and ask for a clear yes first.
+8. Report what changed as a short list. Answer in the user's language.

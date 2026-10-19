@@ -10,18 +10,19 @@ The mailbox's memory must stay with the organisation, not with the person who le
 1. `list_members`: who has access, with which role. Ask who leaves, who arrives, and the handover date.
 2. For the person who leaves, list what they still hold: `search_conversations` with `query: "assignee:<their email>"` and `view: "open"`.
 3. Propose, conversation by conversation:
-   - close what is finished (`set_conversation_status` "done");
+   - mark done what is finished (`set_conversation_status` "done");
    - reassign what is open to the person who takes over (`assign_conversation`);
    - add a handover note where the context is not in the emails: what was promised, what was decided by phone or in a meeting, what is waiting on whom (`add_note`).
 4. The newcomer: `invite_member` (it emails them an invitation; a third person can move the mailbox to the team price). If they should only see part of the mailbox, offer scopes (`list_scopes`, `set_member_scopes`).
-5. After the handover date, and only when the user confirms: `remove_member` for the person who left. Their open conversations go back to the unassigned queue, so reassign first.
+5. After the handover date, and only when the user confirms: `remove_member` for the person who left. Their open conversations go back to To assign, so reassign first.
 6. Check the shared signature still names the right people: `set_mailbox_signature` if the owner wants it changed. Owner-only steps (invite, remove, role, scopes, shared signature) are refused for a member; say so plainly.
+7. Contact groups: `list_contact_groups`, then `get_contact_group` for those that follow the board ("Bureau", "Conseil d'administration", "Élus"). Offer to take out the people who leave (`remove_from_contact_group`) and add the ones who arrive (`search_contacts` or `create_contact`, then `add_to_contact_group`), so the next email to the board reaches the right people. A group that only served the old board can be deleted (`delete_contact_group`) once the user confirms; its contacts stay in the address book.
 
 **A weekly or monthly review** (thirty minutes for a volunteer secretary)
 
 1. `get_counts`, then what has waited more than a week: `search_conversations` with `view: "open"` and `before:` a week ago.
 2. Conversations without an owner: suggest one each.
 3. Decisions taken by email ("on valide la salle du 12"): offer to record them as a note on the conversation so the next board finds them.
-4. Once a month: `list_members` and `list_invitations`. Is anyone who left the organisation still there? Is an invitation still pending for weeks?
+4. Once a month: `list_members` and `list_invitations`. Is anyone who left the organisation still there? Is an invitation still pending for weeks? And in the contact groups the team writes to (`list_contact_groups`), is anyone still there who has left?
 
 Answer in the user's language, as a short checklist.
