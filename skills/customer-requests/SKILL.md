@@ -14,7 +14,7 @@ In a small team every customer knows who answers. What matters is that no reques
 
 - **Quote request**: thank them, restate what they asked for in one line, give the date the quote will be sent, and ask only for what is missing (quantities, address, deadline). Never give a price the user did not give.
 - **Quote follow-up**: one short, friendly email asking if they have questions, a week after sending; a second one at most.
-- **Missing or damaged item, late delivery**: apologise once, plainly; say what happens next and when; ask for the order number or a photo only if it is not already in the thread.
+- **Missing or damaged item, late delivery**: apologize once, plainly; say what happens next and when; ask for the order number or a photo only if it is not already in the conversation.
 - **Complaint**: acknowledge the problem in their words, no excuses and no blame, one concrete fix or a call. Show the draft to the user before anything else.
 - **Refund**: never promise one the user has not confirmed.
 - **Closed for holidays**: say until when, and who to contact if urgent, if the user gives one.
@@ -24,4 +24,4 @@ Write as `reply-for-the-team` says: short, human, the answer first.
 
 Offer a label per kind of request ("Devis", "Commandes", "Réclamations") with `create_label` and `set_conversation_label`, and a note on a customer's contact card (`update_contact`) when something should be remembered next time, such as a preferred delivery day.
 
-Answer in the user's language. In French, `vous` to customers unless the thread already uses `tu`.
+Answer in the user's language. In French, `vous` to customers unless the conversation already uses `tu`.

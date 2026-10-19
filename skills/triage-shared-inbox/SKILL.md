@@ -14,6 +14,6 @@ Triage reads the mailbox and proposes a plan. It changes nothing until the user 
    - **No answer needed**: newsletters, notifications, receipts, automatic messages. Offer to mark them done (`set_conversation_status`) or move them to the trash (`trash_conversation`).
    One line per conversation: who wrote, what they want, how long it has waited.
 5. If the user asks who should take what, call `list_members` and look at who handled similar subjects (`search_conversations` with `view: "all"` and the subject's key words). Suggest an assignee for each conversation, as a suggestion. In a school, the usual split is: the office for absences, certificates, canteen and timetables; the head for complaints, incidents and anything about a child's situation; the teacher for homework.
-6. Ask before acting. Then assign (`assign_conversation`), close (`set_conversation_status`, which also archives at Gmail or Outlook), trash, or add a note for whoever takes over (`add_note`). Report what changed in a short list.
+6. Ask before acting. Then assign (`assign_conversation`), mark done (`set_conversation_status`, which also archives at Gmail or Outlook), trash, or add a note for whoever takes over (`add_note`). Report what changed in a short list.
 
 Answer in the user's language, short, no quoted email bodies, no ids.
