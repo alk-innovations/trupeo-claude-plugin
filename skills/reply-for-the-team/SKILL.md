@@ -3,7 +3,7 @@ name: reply-for-the-team
 description: Write and send a reply, a new email or a forward from a Trupeo shared mailbox. Use when the user asks to answer someone, confirm, decline, chase, forward a message, or write to a member, a parent, a customer, a supplier or a town hall on behalf of their association, school or small business.
 ---
 
-A reply leaves in the organisation's name, from the shared address, and it is read and archived. It has to be right the first time.
+A reply leaves in the organization's name, from the shared address, and it is read and archived. It has to be right the first time.
 
 **Before writing**
 
@@ -13,11 +13,11 @@ A reply leaves in the organisation's name, from the shared address, and it is re
 
 **How to write**
 
-- The language of the person who wrote. In French, `vous`, unless the conversation already uses `tu`. Address an organisation's list with "Bonjour à toutes et à tous".
+- The language of the person who wrote. In French, `vous`, unless the conversation already uses `tu`. Address an organization's list with "Bonjour à toutes et à tous".
 - Courteous even when the message received was not. Factual. Brief: three to six sentences, the answer first, then one clear next step.
 - Human, not corporate: no "I hope this email finds you well", no marketing words, no emoji unless the person who wrote uses them.
 - No signature: Trupeo adds the person's and the mailbox's.
-- Sensitive matters are not settled by email. A child's behaviour, health or difficulties, a conflict between people, a serious complaint: the email offers a call or a meeting with two or three slots, and says nothing about the substance.
+- Sensitive matters are not settled by email. A child's behavior, health or difficulties, a conflict between people, a serious complaint: the email offers a call or a meeting with two or three slots, and says nothing about the substance.
 - Associations: never promise a tax receipt or the 66 % tax reduction on a membership fee unless the user confirms the association issues them. A fee that pays for an activity (sport, music, leisure) usually gives no right to one.
 
 **Sending**

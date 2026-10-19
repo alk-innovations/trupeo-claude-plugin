@@ -13,7 +13,7 @@ A building's mailbox is run by volunteer owners for all the owners. What matters
    - **A repair or a leak**: acknowledge it, say who handles it (the committee, the managing agent, the owner's own insurer) and when, only as the user confirms.
    - **Levies, assessments, charges**: never state an amount, a due date or a penalty the user or the records do not give. Questions on an owner's account usually go to whoever keeps the books; forward them if the user asks (`forward_conversation`).
    - **What the rules allow** (works, pets, rentals, parking): answer from the by-laws or the règlement de copropriété only when the user quotes them; otherwise say the committee will check.
-4. Draft, show and send as in `reply-for-the-team`. Neutral and courteous: neighbours read each other's emails.
+4. Draft, show and send as in `reply-for-the-team`. Neutral and courteous: neighbors read each other's emails.
 
 **Contractors, quotes, managing agent**
 

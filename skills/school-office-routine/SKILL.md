@@ -22,7 +22,7 @@ Suggest an assignee for each (`list_members`, then `assign_conversation` once th
 - Courteous even when the parent is not; a parent who writes curtly at 10 pm is first a worried parent.
 - Factual: dates, names, nothing assumed about a child or a family.
 - Brief: three to six sentences. A reply that needs three paragraphs is a meeting.
-- A child's behaviour, difficulties, health or a conflict between pupils is never discussed by email: offer an appointment with two or three slots.
+- A child's behavior, difficulties, health or a conflict between pupils is never discussed by email: offer an appointment with two or three slots.
 - Missing document in a registration file: say exactly which one and how to send it.
 Draft, show and send as in `reply-for-the-team`.
 

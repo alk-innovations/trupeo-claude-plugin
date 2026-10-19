@@ -9,9 +9,9 @@ A membership fee is chased the way you remind a friend, not a customer: warm, sh
 
 1. Read the conversation (`get_conversation`) and the member's contact card (`search_contacts`, `get_contact`): the treasurer's note may already say they paid.
 2. The usual cases:
-   - **"How do I pay?"**: give the payment ways the user confirms (link, transfer details, cheque, on site) and the deadline. Ask the user if you do not know them.
+   - **"How do I pay?"**: give the payment ways the user confirms (link, transfer details, check, on site) and the deadline. Ask the user if you do not know them.
    - **"I have already paid"**: thank them, say the treasurer will check, and ask for the date and the way they paid. Never contradict them in the email. Add a note for the treasurer (`add_note`).
-   - **A family that cannot pay right now**: answer kindly, without asking for justification. Offer what the user says the association allows (instalments, a reduced fee, a later date); if you do not know, ask the user first.
+   - **A family that cannot pay right now**: answer kindly, without asking for justification. Offer what the user says the association allows (installments, a reduced fee, a later date); if you do not know, ask the user first.
    - **A receipt**: a payment receipt is always possible. A tax receipt (reçu fiscal, 66 %) only if the user confirms the association issues them; a fee that buys an activity usually gives no right to one.
 3. Draft, show, send as in `reply-for-the-team`.
 

@@ -1,19 +1,19 @@
 ---
-name: organise-mailbox
-description: Organise a Trupeo shared mailbox. Use when the user wants to file, sort, label, tag, move or clean up conversations, create or rename folders and labels, or set up scopes so each volunteer or member only sees the mail that concerns them, or sort the address book into contact groups.
+name: organize-mailbox
+description: Organize a Trupeo shared mailbox. Use when the user wants to file, sort, label, tag, move or clean up conversations, create or rename folders and labels, or set up scopes so each volunteer or member only sees the mail that concerns them, or sort the address book into contact groups.
 ---
 
-How a mailbox is organised depends on its provider. Check before proposing anything.
+How a mailbox is organized depends on its provider. Check before proposing anything.
 
 1. Call `list_mailboxes` to get the provider:
-   - **Gmail**: labels. Call `list_labels`; its `capabilities` say what is possible (Gmail labels cannot be renamed from Trupeo, but can be created, coloured and deleted). There are no folders.
+   - **Gmail**: labels. Call `list_labels`; its `capabilities` say what is possible (Gmail labels cannot be renamed from Trupeo, but can be created, colored and deleted). There are no folders.
    - **Outlook / Microsoft 365**: folders (`list_folders`) and categories, which Trupeo shows as labels (`list_labels`).
    - **IMAP**: folders (`list_folders`) and labels (`list_labels`).
 2. Propose a plan in a few lines (for example "a label Invoices for EDF, Bouygues and the jersey quote") and wait for the user's go before changing anything.
 3. Apply it:
    - labels: `create_label`, then `set_conversation_label` for each conversation;
    - folders: `create_folder`, then `move_conversation_to_folder`. `list_folders` gives `inboxId` to move a conversation back to the inbox;
-   - a just-sent email can only be labelled or moved once its copy reaches the provider, usually within a minute.
+   - a just-sent email can only be labeled or moved once its copy reaches the provider, usually within a minute.
 4. Scopes decide who sees what, and only an owner of the mailbox can change them:
    - `list_scopes`, then `create_scope` and `set_conversation_scope` to file conversations;
    - `set_member_scopes` to limit a member to some scopes. A member who loses sight of a conversation assigned to them is unassigned from it automatically, so say so before doing it.

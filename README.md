@@ -12,7 +12,7 @@
   - `board-handover`: when a board or a volunteer changes, the weekly review of what waits and who has access, and contact groups kept up to date with who is on the board;
   - `school-office-routine`: parents' emails, from the morning's absences to the end-of-day check, routed to the office, the head or the teacher, and a notice to a class's parents sent to its contact group in Bcc;
   - `customer-requests`: quotes, orders, delays and complaints for a small business, with a next step in every answer;
-  - `organise-mailbox`: folders, labels or categories depending on the provider, clean-up, scopes so each person sees only what concerns them, and contact groups for the address book;
+  - `organize-mailbox`: folders, labels or categories depending on the provider, clean-up, scopes so each person sees only what concerns them, and contact groups for the address book;
   - `works-council`: a French CSE's mailbox, from employees' questions on activities, chèques-vacances and reimbursements to suppliers, convocations from management and the handover after an election, with employees' personal data kept out of notes and their addresses never shown to each other;
   - `strata-committee`: a self-managed strata committee, HOA board or conseil syndical, from owners' questions and repairs to contractors' quotes, the managing agent, notices to all the owners sent to a contact group in Bcc, and decisions taken by email noted for the minutes.
 

@@ -3,7 +3,7 @@ name: board-handover
 description: Hand a Trupeo shared mailbox over when people change, or review who has access. Use when an association's board changes, a secretary, treasurer or volunteer leaves or arrives, a school staff member changes, or the user asks who has access, who is handling what, or wants a weekly or monthly review of the mailbox.
 ---
 
-The mailbox's memory must stay with the organisation, not with the person who leaves. This skill prepares the handover; the user decides each step.
+The mailbox's memory must stay with the organization, not with the person who leaves. This skill prepares the handover; the user decides each step.
 
 **A handover**
 
@@ -23,6 +23,6 @@ The mailbox's memory must stay with the organisation, not with the person who le
 1. `get_counts`, then what has waited more than a week: `search_conversations` with `view: "open"` and `before:` a week ago.
 2. Conversations without an owner: suggest one each.
 3. Decisions taken by email ("on valide la salle du 12"): offer to record them as a note on the conversation so the next board finds them.
-4. Once a month: `list_members` and `list_invitations`. Is anyone who left the organisation still there? Is an invitation still pending for weeks? And in the contact groups the team writes to (`list_contact_groups`), is anyone still there who has left?
+4. Once a month: `list_members` and `list_invitations`. Is anyone who left the organization still there? Is an invitation still pending for weeks? And in the contact groups the team writes to (`list_contact_groups`), is anyone still there who has left?
 
 Answer in the user's language, as a short checklist.

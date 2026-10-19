@@ -16,7 +16,7 @@ Only the plugin: nine skills in Markdown under `skills/`, the manifest in `.clau
 
 - Every tool a skill names must exist in the Trupeo connector, with the parameters it uses.
 - A skill never makes Claude send, delete, invite, remove or change access without the person's clear yes.
-- No promise Trupeo or the organisation cannot keep (tax receipts, refunds, prices, delays).
+- No promise Trupeo or the organization cannot keep (tax receipts, refunds, prices, delays).
 - Plain, human wording; no marketing language.
 - Repository content is written in English. Skills tell Claude to answer in the user's language.
 
