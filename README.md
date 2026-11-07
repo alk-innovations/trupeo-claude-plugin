@@ -31,7 +31,7 @@ Claude asks you to confirm before it sends an email, deletes something, invites 
 
 ## Requirements
 
-A Trupeo account (free 30-day trial, no credit card) with at least one shared mailbox connected: Gmail, Outlook, Microsoft 365 or any IMAP mailbox.
+A Trupeo account (free trial, no credit card) with at least one shared mailbox connected: Gmail, Outlook, Microsoft 365 or any IMAP mailbox.
 
 ## Data
 
